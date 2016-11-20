@@ -10,7 +10,9 @@
 		<name>GridLine</name>
 		<url>http://www.gridline.nl/</url>
 	</organization>
-
+	<prerequisites>
+		<maven>3.0</maven>
+	</prerequisites>
 	<developers>
 		<developer>
 			<id>job</id>
@@ -43,7 +45,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
+				<version>3.6.0</version>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
@@ -52,7 +54,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>2.5</version>
+				<version>2.5.3</version>
 			</plugin>
 		</plugins>
 	</build>
