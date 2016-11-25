@@ -20,8 +20,8 @@
 package nl.gridline.leveldb.bindings.utils;
 
 /**
- * Simple Byte array conversions.<br />
- * Subset of the HBase bytes util: {@link org.apache.hadoop.hbase.util.Bytes}
+ * Simple Byte array conversions.
+ * Subset of the HBase bytes util: link {code org.apache.hadoop.hbase.util.Bytes}
  * @author <a href="mailto:job@gridline.nl">Job</a>
  */
 public class Bytes
